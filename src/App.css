@@ -1,13 +1,20 @@
 .App{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   align-self: center;
   align-content: center;
   height: 40rem;
 }
-
+.Read{
+  display: flex;
+  flex-direction: column;
+}
+.ReadAPI{
+  width: 100px;
+  height: 0px;
+}
 body{
   color: #fefeff;
   background-color: #000000;
@@ -46,8 +53,7 @@ body{
 
 
 .btn {
-  width: 6.0em;
-  height: 2.0em;
+  height: 2.5em;
   margin: 0.5em;
   background: black;
   color: white;
